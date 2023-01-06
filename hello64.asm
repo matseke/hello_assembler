@@ -1,3 +1,6 @@
+; nasm -f elf64 -o hello64.o hello64.asm
+; ld -o hello64 hello64.o -I/lib64/ld-linux-x86-64.so.2
+
 global _start
 
 ;
